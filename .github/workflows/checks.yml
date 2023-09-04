@@ -37,7 +37,7 @@ jobs:
         with:
           username: ${{ secrets.DOCKERHUB_USER }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
-          registry: https://index.docker.io/v1/
+          registry: https://index.docker.io/v2/
       
       - name: Set up Docker Compose
         run: docker-compose --version
